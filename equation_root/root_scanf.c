@@ -24,7 +24,7 @@ int main(){
     printf("Enter c: ");
     error = scanf("%lf", &c);
     if (error != 1){
-        printf("Podaj poprawne wartości liczb");
+        printf("Please enter correct values");
         return 1;
     };
 
